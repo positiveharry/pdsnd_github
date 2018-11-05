@@ -1,15 +1,14 @@
 ### Date created
-Include the date you created this project and README file.
+2018-11-04
 
 ### Project Title
-Replace the Project Title
+__GIT Final Project__
 
 ### Description
-Describe what your project is about and what it does
+It involves checking-in python files created as part of bike share project. Create multiple branches and merge the same.
 
 ### Files used
 Include the files used
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
