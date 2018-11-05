@@ -219,6 +219,7 @@ def main():
 
         city, month, day = get_filters()
 
+        # Check the validity of user input
         is_city_valid = CITY_DATA.get(city)
         is_month_valid = global_months.get(month)
         is_day_valid = global_weekday.get(day)
