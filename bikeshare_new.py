@@ -105,6 +105,7 @@ def time_stats(df,month,day):
     print('\nCalculating The Most Frequent Times of Travel...\n')
     start_time = time.time()
 
+    # Decide if stats should be computed based on all days or months
     if(month == 'all'):
 
         months = ['january', 'february', 'march', 'april', 'may', 'june']
@@ -167,6 +168,7 @@ def station_stats(df):
 def trip_duration_stats(df):
     """Displays statistics on the total and average trip duration."""
 
+    # Compute start time
     print('\nCalculating Trip Duration...\n')
     start_time = time.time()
 
@@ -219,6 +221,7 @@ def main():
 
         city, month, day = get_filters()
 
+        # Check the validity of user input
         is_city_valid = CITY_DATA.get(city)
         is_month_valid = global_months.get(month)
         is_day_valid = global_weekday.get(day)
