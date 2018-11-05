@@ -16,4 +16,4 @@ It involves checking-in python files created as part of bike share project. Crea
 * .gitignore
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+This project was forked from *https://github.com/udacity/pdsnd_github*
