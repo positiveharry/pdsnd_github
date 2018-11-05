@@ -193,6 +193,7 @@ def user_stats(df,city):
     print()
     print(df.groupby(['User Type']).size())
 
+    # Check to ignore gender or yob stats for Washington
     if(city == 'washington'):
         print('\nNo Gender or Year of birth related statistics available for Washington')
     else:
