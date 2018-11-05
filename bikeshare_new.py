@@ -18,6 +18,7 @@ def display_lines(city):
     start_from=0
     end_at=5
 
+    # To spew five lines of a file at a time until user says NO
     while counter == 1:
         #print('\nNew start value is : ',start_from)
         #print('\nNew end value is : ',end_at)
