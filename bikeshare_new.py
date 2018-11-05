@@ -104,6 +104,7 @@ def time_stats(df,month,day):
     print('\nCalculating The Most Frequent Times of Travel...\n')
     start_time = time.time()
 
+    # Decide if stats should be computed based on all days or months
     if(month == 'all'):
 
         months = ['january', 'february', 'march', 'april', 'may', 'june']
